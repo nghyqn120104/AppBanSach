@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <EditText
+        android:id="@+id/etMaSVUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã SV"
+        android:enabled="false"
+        android:focusable="false"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etHoTenUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ Tên"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etDiaChiUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa Chỉ"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etNgaySinhUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày Sinh"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etGioiTinhUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giới Tính"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etEmailUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etDiemTBUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm TB"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/btnUpdateSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF6347"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Cập Nhật Sinh Viên"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

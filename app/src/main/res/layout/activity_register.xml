@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <TextView android:textSize="27sp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#4682B4"
+        android:textStyle="bold"
+        android:text="ĐĂNG KÝ TÀI KHOẢN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Tên tài khoản"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:paddingRight="80dp"
+        android:paddingBottom="15dp"
+        android:textColor="#4682B4"
+        android:textColorHint="#4682B4" />
+    <EditText
+        android:textColor="#4682B4"
+        android:id="@+id/edUserpass"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Mật khẩu"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:textColor="#4682B4"
+        android:id="@+id/edRepass"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Xác nhận MK"
+        android:gravity="center"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:textColor="#4682B4"
+        android:id="@+id/edSDT"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Số điện thoại"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edDiaChi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginbutton_background"
+        android:gravity="center"
+        android:hint="Địa chỉ"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="15dp"
+        android:textColor="#4682B4"
+        android:textColorHint="#4682B4" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="#D32424"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:backgroundTint="#B0E0E6"
+        android:paddingBottom="15dp"
+        android:text="Đăng ký"
+        android:textColor="#4682B4"
+        android:textStyle="bold" />
+
+</LinearLayout>

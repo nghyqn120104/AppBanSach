@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="131dp"
+        app:cardCornerRadius="250dp"
+        app:cardBackgroundColor="@color/white">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="145dp"
+            app:cardCornerRadius="250dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="131dp"
+                android:layout_gravity="center"
+                android:background="@drawable/booklogin">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView android:textSize="27sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#4682B4"
+        android:textStyle="bold"
+        android:text="ĐĂNG NHẬP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Tên đăng nhập"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:paddingBottom="15dp"
+        android:gravity="center"
+        android:textColor="#4682B4"
+        android:textColorHint="#4682B4" />
+    <EditText
+        android:textColor="#4682B4"
+        android:id="@+id/edUserpass"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:inputType="textPassword"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Mật khẩu"
+        android:gravity="center"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:textColor="#D32424"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:backgroundTint="#B0E0E6"
+        android:paddingBottom="15dp"
+        android:text="Đăng nhập"
+        android:textColor="#4682B4"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/dangKi"
+        >
+        <TextView
+            android:id="@+id/disable"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#333"
+            android:text="Đăng ký ở đây!"
+            android:layout_width="wrap_content"
+            android:enabled="false"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/btnDangKy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/register_icon"/>
+    </LinearLayout>
+</LinearLayout>

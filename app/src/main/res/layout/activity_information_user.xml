@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationUserActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgoutuser"
+            android:layout_width="50dp"
+            android:layout_height="36dp"
+            android:src="@drawable/outcategory"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Thông tin người dùng"
+            android:textColor="#4682B4"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/user"
+        android:background="@drawable/categorytron"
+        android:clipToOutline="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tvMaSach"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="Tên khách hàng:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtkhachhang"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:text="tên khách hàng"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tvTenSach"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtsdt"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:text="sdt"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tvTheLoai"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdiachi"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:text="đại chỉ"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

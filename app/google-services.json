@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718824888455",
+    "project_id": "btlandroidnc-d2e99",
+    "storage_bucket": "btlandroidnc-d2e99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718824888455:android:7f858244b7f085860fc022",
+        "android_client_info": {
+          "package_name": "com.example.appbansach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRt4j34L7dSS9OJ6hePXtAb6ARsgu2We0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

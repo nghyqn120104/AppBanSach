@@ -1,0 +1,43 @@
+<!-- res/layout/invoice_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_background">
+        <TextView
+            android:id="@+id/invoiceCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/invoiceTimeIssued"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày đặt"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/invoiceTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền"
+            android:textSize="16sp" />
+
+        <!-- Add a TextView to display CartItem details -->
+        <TextView
+            android:id="@+id/cartItemsDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart Items"
+            android:textSize="14sp"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+</LinearLayout>

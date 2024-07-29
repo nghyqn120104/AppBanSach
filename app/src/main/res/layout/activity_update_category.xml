@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateCategoryActivity"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:background="@drawable/categorytron"
+        android:layout_height="200dp"
+        android:src="@drawable/category"
+        android:clipToOutline="true"/>
+
+    <TextView android:textSize="27sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#0D8488"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="SỬA THỂ LOẠI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:textColor="#4682B4"
+        android:id="@+id/editUpdateCategoryID"
+        android:layout_marginBottom="20dp"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Nhập tên thể loại"
+        android:gravity="center"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:textColor="#4682B4"
+        android:id="@+id/editUpdateCategoryName"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/loginbutton_background"
+        android:hint="Nhập tên thể loại"
+        android:gravity="center"
+        android:textColorHint="#4682B4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:textColor="#D32424"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/buttonUpdateCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:backgroundTint="#B0E0E6"
+        android:paddingBottom="15dp"
+        android:text="Sửa"
+        android:textColor="#4682B4"
+        android:textStyle="bold" />
+
+</LinearLayout>
